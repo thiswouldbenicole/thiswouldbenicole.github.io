@@ -402,6 +402,8 @@ p{
 	transition: color 3s ease-out, background 3s ease-in;
 }
 
+
+
 .sociallinks ul{
 	text-align: center;
 	margin: 0;
@@ -419,6 +421,16 @@ p{
 
 .sociallinks li:first-child{
 	padding-left: 0;
+}
+
+@media(max-width: 800){
+	.sociallinks li{
+		padding-left: 1.5em;
+	}
+
+	.sociallinks li:first-child{
+		padding-left: 0;
+	}
 }
 
 .emaillink:hover{
