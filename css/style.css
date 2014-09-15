@@ -300,6 +300,7 @@ p{
 	#leftface{
 		padding-right: 3.5em;
 		padding-bottom: 0em;
+		padding-left: -1em;
 	}
 
 }
