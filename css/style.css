@@ -425,7 +425,7 @@ p{
 
 @media screen and (max-width: 800){
 	.sociallinks li{
-		padding-left: 1em;
+		padding-left: 0em;
 	}
 
 	.sociallinks li:first-child{
