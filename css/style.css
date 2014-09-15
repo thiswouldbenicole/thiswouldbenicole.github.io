@@ -133,14 +133,14 @@ hr{
 }
 
 
-@media only screen and(min-width: 1300px){
+@media(min-width: 1300px){
 	.sidepadding{
 		padding-right: 22%;
 		padding-left: 22%;
 	}
 }
 
-@media only screen and(min-width: 600px) and (max-width: 1300px){
+@media(min-width: 600px) and (max-width: 1300px){
 	.sidepadding{
 		padding-left: 7%;
 		padding-right: 7%;
@@ -238,7 +238,7 @@ hr{
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and(max-width: 800px){
+@media(max-width: 800px){
 	.navbar li:first-child{
 		display: none;
 	}
@@ -264,7 +264,7 @@ hr{
 	font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and(max-width: 640px){
+@media(max-width: 640px){
 	.leftlink{
 		display: none;
 	} 
@@ -298,7 +298,7 @@ p{
 	margin-bottom: 2em;
 }
 
-@media only screen and(min-width: 1000px){
+@media(min-width: 1000px){
 	.homepageimgpad{
 		padding-right: 3.5em;
 	}
@@ -315,7 +315,7 @@ p{
 	padding-top: 16%;
 }
 
-@media only screen and(max-width: 640px){
+@media(max-width: 640px){
 	.homepageimgpad{
 		padding-bottom: 2em;
 	}
@@ -402,6 +402,8 @@ p{
 	transition: color 3s ease-out, background 3s ease-in;
 }
 
+
+
 .sociallinks ul{
 	text-align: center;
 	margin: 0;
@@ -421,9 +423,9 @@ p{
 	padding-left: 0;
 }
 
-@media only screen and (max-width: 800){
+@media(max-width: 800){
 	.sociallinks li{
-		padding-left: 1em;
+		padding-left: 2em;
 	}
 
 	.sociallinks li:first-child{
@@ -457,7 +459,7 @@ p{
 	padding-right: 5em;
 }
 
-@media only screen and(max-width: 640px){
+@media(max-width: 640px){
 	.aboutmission{
 		padding-top: 2.5em;
 		padding-right: 0;
