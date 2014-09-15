@@ -3,7 +3,7 @@
 <html lang="en">
 
 <!--Website designed and coded by Nicole Calace (c) 2014
-(With a little help from Zurb Foundation)-->
+(With a little help from Zurb Foundation, and lightbox.js)-->
 
 	<head>
 		<meta charset="utf-8"> 
@@ -15,6 +15,10 @@
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'>
 		<title>Moodlight | Nicole Calace</title>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="../js/lightbox-2.6.min.js"></script>
+		<link href="../css/lightbox.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -68,9 +72,9 @@
 				<p>The MoodLight android app was developed to control the above ambient lighting system. Below are some screenshots of the old app, which had convoluted menus that made it hard to change settings between experiment trials.</p>
 
 					<ul class="large-block-grid-3 small-block-grid-3">
-						<li><img src="../img/moodlight/oldML1.png" alt="Screencaps of the Old App"> </li>
-						<li><img src="../img/moodlight/oldML2.png" alt="Screencaps of the Old App"> </li>
-						<li><img src="../img/moodlight/oldML3.png" alt="Screencaps of the Old App"> </li>
+						<li> <a href="../img/moodlight/oldML1.png" data-lightbox="oldapp"> <img src="../img/moodlight/oldML1.png" alt="Screencaps of the Old App"> </a> </li>
+						<li> <a href="../img/moodlight/oldML2.png" data-lightbox="oldapp"> <img src="../img/moodlight/oldML2.png" alt="Screencaps of the Old App"> </a> </li>
+						<li> <a href="../img/moodlight/oldML3.png" data-lightbox="oldapp"> <img src="../img/moodlight/oldML3.png" alt="Screencaps of the Old App"> </a> </li>
 					</ul>
 				
 				<p>My redesign of the app needed to not only make it easier to navigate through all of the current features, but also account for two very different use-cases of the app. The main use-case of the app is using it to run in-house experiments run by actual researchers. Researchers need full control over every possible feature of the system.</p>
@@ -80,12 +84,12 @@
 				<p>Below are some high-fidelity wireframes of selecting a mode, and the menus of the One-Player, Two-Player, and personal use modes. </p>
 
 					<ul class="large-block-grid-3 small-block-grid-3 lastp">
-						<li><img src="../img/moodlight/moodlight-wires-01.jpg" alt="Wireframes" class="slightdropshadow"> </li>
-						<li><img src="../img/moodlight/moodlight-wires-02.jpg" alt="Wireframes" class="slightdropshadow"> </li>
-						<li><img src="../img/moodlight/moodlight-wires-03.jpg" alt="Wireframes" class="slightdropshadow"> </li>
-						<li><img src="../img/moodlight/moodlight-wires-04.jpg" alt="Wireframes" class="slightdropshadow"> </li>
-						<li><img src="../img/moodlight/moodlight-wires-10.jpg" alt="Wireframes" class="slightdropshadow"> </li>
-						<li><img src="../img/moodlight/moodlight-wires-06.jpg" alt="Wireframes" class="slightdropshadow"> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-01.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-01.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-02.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-02.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-03.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-03.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-04.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-04.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-10.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-10.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
+						<li> <a href="../img/moodlight/moodlight-wires-06.jpg" data-lightbox="mlwires"> <img src="../img/moodlight/moodlight-wires-06.jpg" alt="Wireframes" class="slightdropshadow"> </a> </li>
 					</ul>
 
 			</div>
@@ -98,10 +102,10 @@
 				<h3>First Iterations</h3>
 
 				<p>Below is a first iteration of the app's visual design.</p>	
-				<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-2">
-					<li><img src="../img/moodlight/firstPassBlue.png" alt="Screencaps of the Old App" class="slightdropshadow"> </li>
-					<li><img src="../img/moodlight/firstPassRed1.png" alt="Screencaps of the Old App" class="slightdropshadow"> </li>
-					<li><img src="../img/moodlight/firstPassRed.png" alt="Screencaps of the Old App" class="slightdropshadow"> </li> 
+				<ul class="large-block-grid-3 medium-block-grid-3 small-block-grid-3">
+					<li> <a href="../img/moodlight/firstPassBlue.png" data-lightbox="firstvisual"> <img src="../img/moodlight/firstPassBlue.png" alt="Screencaps of the Old App" class="slightdropshadow"> </a> </li>
+					<li> <a href="../img/moodlight/firstPassRed1.png" data-lightbox="firstvisual"> <img src="../img/moodlight/firstPassRed1.png" alt="Screencaps of the Old App" class="slightdropshadow"> </a> </li>
+					<li> <a href="../img/moodlight/firstPassRed.png" data-lightbox="firstvisual"> <img src="../img/moodlight/firstPassRed.png" alt="Screencaps of the Old App" class="slightdropshadow"> </a> </li> 
 				</ul>
 
 				<p>To handle the two very different use-cases, users are prompted to choose between a research mode and personal use mode when they first open the app. The rest of the app's UI is colored red if the researcher mode is being used, or blue if the personal use mode is being used, to make it easy to tell which mode the app is being used in at a glance.</p>
@@ -110,22 +114,22 @@
 
 				<p>The personal use mode will be seen mostly by users with anxiety disorders so it was extremely important to make sure this mode of the app has few controls as possible, to prevent any extra stress. It was also important to make sure the app felt friendly and inviting. Copy is slighly different on the personal use mode to make it friendlier and more personal through usage of more coloquiel lanugage and emoticons. </p>
 
-				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1">
-					<li><img src="../img/moodlight/ML-patient-1.png" alt="Comp of the start button disabled on personal usage mode"> </li> 
-					<li><img src="../img/moodlight/ML-patient-2.png" alt="Comp of the start button enabled on personal usage mode"> </li> 
+				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2">
+					<li> <a href="" data-lightbox="visual1"> <img src="../img/moodlight/ML-patient-1.png" alt="Comp of the start button disabled on personal usage mode"> </a> </li> 
+					<li> <a href="" data-lightbox="visual1"> <img src="../img/moodlight/ML-patient-2.png" alt="Comp of the start button enabled on personal usage mode"> </a> </li> 
 				</ul>
 
 				<p>All possible settings for the selected type of trial are available upfront when using the app as a researcher. The copy might not make sense to a random person looking at the app, but the only people who will generally be using this mode of the app already have a deep underdstanding of the capabilities of the lighting system. </p>
 
-				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1">
-					<li><img src="../img/moodlight/ML-researcher-2p1.png" alt=""> </li> 
-					<li><img src="../img/moodlight/ML-researcher-2p2.png" alt=""> </li> 
+				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2">
+					<li> <a href="../img/moodlight/ML-researcher-2p1.png" data-lightbox="visual2"> <img src="../img/moodlight/ML-researcher-2p1.png" alt="visual design for 2 player"> </a> </li> 
+					<li> <a href="../img/moodlight/ML-researcher-2p2.png" data-lightbox="visual2"> <img src="../img/moodlight/ML-researcher-2p2.png" alt="visual design for 2 player"> </a> </li> 
 				</ul>
 
 				<p>The lighting system can either scroll through an entire rainbow, or cycle between two colors, to signify change in stress levels. When the full-spectrum mode is turned off, a color picker drops down to allow users to pick which two specfic colors they want the system to cycle between. </p>
-				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-1 lastp">
-					<li><img src="../img/moodlight/ML-researcher-1p2.png" alt=""> </li>
-					<li><img src="../img/moodlight/ML-researcher-1p.png" alt=""> </li> 
+				<ul class="large-block-grid-2 medium-block-grid-2 small-block-grid-2 lastp">
+					<li> <a href="../img/moodlight/ML-researcher-1p2.png" data-lightbox="visual3"> <img src="../img/moodlight/ML-researcher-1p2.png" alt="visual design for 1 player"> </a> </li>
+					<li> <a href="../img/moodlight/ML-researcher-1p.png" data-lightbox="visual3"> <img src="../img/moodlight/ML-researcher-1p.png" alt="visual design for 1 player"> </a> </li> 
 				</ul>
 
 			</div>
@@ -134,7 +138,7 @@
 		<div class="row">
 			<div class="large-12 columns moreinfo">
 				<h2>Motion Graphics</h2>
-				<p>...QUARTZ COMPOSER DEMO COMING SOON...</p>
+				<p>... quartz composer demo coming soon ...</p>
 			</div>
 		</div>
 
