@@ -133,14 +133,14 @@ hr{
 }
 
 
-@media(min-width: 1300px){
+@media screen and (min-width: 1300px){
 	.sidepadding{
 		padding-right: 22%;
 		padding-left: 22%;
 	}
 }
 
-@media(min-width: 600px) and (max-width: 1300px){
+@media screen and (min-width: 600px) and (max-width: 1300px){
 	.sidepadding{
 		padding-left: 7%;
 		padding-right: 7%;
@@ -238,7 +238,7 @@ hr{
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media(max-width: 800px){
+@media screen and (max-width: 800px){
 	.navbar li:first-child{
 		display: none;
 	}
@@ -264,7 +264,7 @@ hr{
 	font-family: 'Open Sans', sans-serif;
 }
 
-@media(max-width: 640px){
+@media screen and (max-width: 640px){
 	.leftlink{
 		display: none;
 	} 
@@ -298,7 +298,7 @@ p{
 	margin-bottom: 2em;
 }
 
-@media(min-width: 1000px){
+@media screen and (min-width: 1000px){
 	.homepageimgpad{
 		padding-right: 3.5em;
 	}
@@ -315,7 +315,7 @@ p{
 	padding-top: 16%;
 }
 
-@media(max-width: 640px){
+@media screen and (max-width: 640px){
 	.homepageimgpad{
 		padding-bottom: 2em;
 	}
@@ -423,7 +423,7 @@ p{
 	padding-left: 0;
 }
 
-@media(max-width: 800){
+@media screen and (max-width: 800){
 	.sociallinks li{
 		padding-left: 1em;
 	}
@@ -459,7 +459,7 @@ p{
 	padding-right: 5em;
 }
 
-@media(max-width: 640px){
+@media screen and (max-width: 640px){
 	.aboutmission{
 		padding-top: 2.5em;
 		padding-right: 0;
