@@ -238,7 +238,7 @@ hr{
 	font-family: 'Montserrat', sans-serif;
 }
 
-@media(max-width: 640px){
+@media(max-width: 800px){
 	.navbar li:first-child{
 		display: none;
 	}
