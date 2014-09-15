@@ -238,6 +238,12 @@ hr{
 	font-family: 'Montserrat', sans-serif;
 }
 
+@media(max-width: 640px){
+	.navbar li:first-child{
+		display: none;
+	}
+}
+
 .homelink{
 	text-align: center;
 	display: inline-block;
@@ -443,7 +449,7 @@ p{
 
 @media(max-width: 640px){
 	.aboutmission{
-		padding-top: 0;
+		padding-top: 2.5em;
 		padding-right: 0;
 	}
 
