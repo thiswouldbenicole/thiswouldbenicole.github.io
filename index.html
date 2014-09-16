@@ -98,7 +98,7 @@
 
     <hr>
 
-   <div class="row contentstripe">
+   <div class="row contentstripe" id="lab126">
     <div class="large-4 medium-4 columns center homepageimgpad">
         <img src="img/covers/fire-cover.png" alt="Lab126">
     </div>
@@ -109,63 +109,64 @@
     </div>
   </div>
 
-<!--   <hr>
+  <hr>
 
-   <div class="row contentstripe">
-    <div class="large-4 medium-3 columns center homepageimgpad">
-        <img src="" >
+  <div class="row contentstripe" id="graphicdesign">
+      <div class="large-4 medium-4 columns center homepageimgpad">
+        <img src="img/covers/graphicdesign-cover.png" alt="Graphic Design">
     </div>
     <div class="large-8 medium-8 columns">
       <h2>Freelance</h2>
       <h3>Graphic Designer</h3>
       <p>On the side, I have worked on several graphic design projects.</p>
-      <a href="pages/achieve.html"><span class="button">READ MORE</span></a>
+      <a href="pages/graphicdesign.html"><span class="button">READ MORE</span></a>
       <p> </p>
     </div>
-  </div> -->
+  </div> 
 
- <!--  <hr>
+<hr>
 
-   <div class="row contentstripe">
-    <div class="large-4 medium-3 columns center homepageimgpad">
-        <img src="img/covers/robotics-cover.png" alt="Lab126">
+   <div class="row contentstripe" id="robotics">
+      <div class="large-4 medium-4 columns center homepageimgpad">
+        <img src="img/covers/robotics-cover.png" alt="Robot">
     </div>
     <div class="large-8 medium-8 columns">
-      <h2>Fe Maidens FIRST Robotics Team</h2>
+      <h2>FIRST Robotics</h2>
       <h3>Captain</h3>
-      <p> Lab126 is Amazon.com's consumer electronics research and development lab. During my internship I completed interaction and visual design for the <a href="http://www.amazon.com/Fire-TV-streaming-media-player/dp/B00CX5P8FC/">Fire TV</a> with a small team of designers.</p>
+      <p>During high school, I programmed and wired four award winning robots as a part of my school's all-girls FIRST robotics team, the Fe Maidens.</p>
+      <a href="pages/robotics.html"><span class="button">READ MORE</span></a>
+      <p> </p>
     </div>
-  </div> -->
+  </div>
 
 </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-    <script src="js/bigtext.js"></script>
-    <script>
-      jQuery(window).load(function () {
-          $('.fullwidthtext').bigtext();
 
-          $('a').click(function(){
-            $('html, body').animate({
-                scrollTop: $( $(this).attr('href') ).offset().top
-            }, 500);
-            return false;
-        });
-      });
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
+<script src="js/bigtext.js"></script>
+<script>
+  jQuery(window).load(function () {
+      $('.fullwidthtext').bigtext();
 
+      $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 500);
+        return false;
+    });
 
-    </script>
+  });
+</script>
 
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-45362429-1', 'nicolecalace.com');
-    ga('send', 'pageview');
+  ga('create', 'UA-45362429-1', 'nicolecalace.com');
+  ga('send', 'pageview');
+</script>
 
-  </script>
-
-  </body>
+</body>
 </html>

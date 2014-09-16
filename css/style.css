@@ -50,8 +50,8 @@ h1, h2{
 }
 
 .greenstripe{
-	background-color: #6cd3b4;
-
+		background-color: #6cd3b4;
+		overflow: auto;
 }
 
 .leftface{
@@ -490,4 +490,35 @@ p{
 
 p{
 	line-height: 1.4em;
+}
+
+.whitebutton{
+	border: solid 2px white;
+	padding: 1em;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	font-weight: 300;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
+}
+
+.whitebutton:hover{
+	border: solid 2px white;
+	background-color: white;
+	color: #6cd3b4;
+	transition: opacity .1s ease-in-out;
+	-moz-transition: opacity .1s ease-in-out;
+	-webkit-transition: opacity .1s ease-in-out;
+}
+
+.buttonstripe{
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#archive{
+	display: none; 
 }
