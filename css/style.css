@@ -417,7 +417,7 @@ p{
 	padding-left: 0;
 }
 
-@media screen and (max-width: 8s00){
+@media screen and (max-width: 800px){
 	.sociallinks li{
 		padding-left: 1em;
 	}
