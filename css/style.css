@@ -77,7 +77,17 @@ h1, h2{
 	color: #666666;
 }
 
+.rightbutton{
+	text-align: right;
+}
+
+.leftbutton{
+	text-align: left;
+}
+
 .button{
+
+	text-align: center;
 	background-color: #6cd3b4;
 	box-shadow: 0 2px 0px 0px #61bda2;
 	color: white;
@@ -316,7 +326,6 @@ p{
 
 	.button{
 		margin-bottom: 2em;
-		
 	}
 
 	.abouttext{
@@ -330,9 +339,16 @@ p{
   	text-align: center;
 }
 
+.centerbutton{
+	text-align:left;
+    margin: 0 auto; 
+   	display: inline-block;
+}
+
 .footer{
 	padding-top: 1em;
 	padding-bottom: 1em;
+	width: 100%;
 }
 
 .aboutlist{
@@ -546,4 +562,8 @@ p{
 
 .graphicdesignarrow{
 	margin-top: .5em;
+}
+
+.hide{
+	visibility: hidden;
 }
