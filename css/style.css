@@ -558,6 +558,14 @@ p{
 	.arrow{
 		visibility: hidden;
 	}
+
+	.rightlink{
+		visibility: hidden;
+	}
+
+	.leftlink{
+		visibility: hidden;
+	}
 }
 
 .graphicdesignarrow{
