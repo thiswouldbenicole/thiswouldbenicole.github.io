@@ -516,3 +516,34 @@ p{
 #archive{
 	display: none; 
 }
+
+
+.arrow{
+	margin-top: 3em;
+	position: absolute;
+	color: white;
+	padding: 3em;
+	opacity: .8;
+}
+
+.rightarrow{
+	right: 0px;
+}
+
+.leftarrow{
+	left: 0px;
+}
+
+.arrow:hover{
+	opacity: 1.0;
+}
+
+@media screen and (max-width: 800px){
+	.arrow{
+		visibility: hidden;
+	}
+}
+
+.graphicdesignarrow{
+	margin-top: .5em;
+}
