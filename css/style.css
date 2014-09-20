@@ -575,3 +575,33 @@ p{
 .hide{
 	visibility: hidden;
 }
+
+.footer ul{
+	margin: 0;
+	padding: 0;
+}
+
+.footer li{
+	width: 33%;
+	display: inline-block;
+}
+
+.footer li:first-child{
+	float: left;
+}
+
+.footer li:nth-child(2){
+	text-align: center;
+}
+
+.footer li:nth-child(3){
+	float: right;
+}
+
+.leftbuttontext{
+	padding-left: .8em;
+}
+
+.rightbuttontext{
+	padding-right: .8em;
+}
