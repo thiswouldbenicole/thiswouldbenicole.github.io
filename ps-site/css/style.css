@@ -1,0 +1,221 @@
+body{
+	background-color: #76c8cc;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	font-size: 16pt;
+}
+
+.illustration{
+	margin: auto;
+	margin-top: 25px;
+	width: 700px;
+	z-index: 2;
+}
+
+#logocloud{
+	position: relative;
+	width: 200px;
+	left: -50px;
+	-webkit-animation-name: logocloudAnimation; 
+    -webkit-animation-duration: 10s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: logocloudAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes logocloudAnimation {
+    0%   {left:-60px;}
+    50%  {left:-40px;}
+    100% {left: -60px;}
+}
+
+#sun{
+	float: right;
+	position: relative;
+	width: 120px;
+	right: -50px;
+	top: 25px;
+}
+
+#cloud{
+	position: relative;
+	width: 180px;
+	float: right;
+	right: -100px;
+	top: 30px;
+	-webkit-animation-name: cloudAnimation; 
+    -webkit-animation-duration: 13s; 
+    -webkit-animation-iteration-count: infinite;
+    animation-name: cloudAnimation;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes cloudAnimation{
+    0%   {right:-140px;}
+    50%  {right:-100px;}
+    100% {right:-140px;}
+}
+
+#popshop{
+	position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+#mission p{
+	line-height: .3em;	
+}
+
+#mission{
+	position: relative;
+	top: 40px;
+	text-align: center;
+	width: 550px;
+	padding-left: 30px;
+}
+
+#grass{
+	position: relative;
+	margin-top: -60px;
+	background-color: #7fc465;
+	height: 60px;
+	z-index: 0;
+	border-top: solid #67925e 3px;
+	width: 100%;
+}
+
+#grass2{
+	background-color: #7fc465;
+}
+
+.button{
+	color: #67925e;
+	background-color: white;
+	opacity: .6;
+	font-size: 12px;
+	float: right;
+	width: 100px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+	cursor: pointer; 
+}
+
+.button :hover{
+	opacity: 1;
+}
+
+.links{
+	width: 600px;
+	margin: auto;
+	margin-bottom: 0;
+	padding-top: 35px;
+	padding-bottom: 25px;
+}
+
+#cal{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+form {
+	display: inline;
+}
+
+input[type="submit"] {
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    display: inline; 
+    width: 100px;  
+    padding: 7px; 
+}
+
+input[type="text"]{
+	display: inline-block;
+	color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2.5px solid white;
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    size: 10;
+    float: right;
+    margin-right: 20px;
+    width: 174px;
+    padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+::-webkit-input-placeholder { 
+  	color: white;
+    font-weight: 100;
+    opacity: .4;
+    padding-left: 5px;
+}
+:-moz-placeholder { 
+   color: white;
+   font-weight: 100;
+   opacity: .4;
+   padding-left: 5px;
+
+}
+::-moz-placeholder { 
+   color: white;
+   font-weight: 100;
+   opacity: .4;
+   padding-left: 5px;
+
+}
+:-ms-input-placeholder {
+   color: white;
+   font-weight: 100;
+   opacity: .4;
+   padding-left: 5px;
+
+}
+
+#credits{
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 100%;
+	background-color: #333;
+	font-size: 12px;
+	text-align: center;
+}
+
+#credits p{
+	text-align: center;
+}
+
+#credits a{
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+#credits a:visited{
+	color: white;
+	font-weight: 400;
+	font-style: none;
+}
+
+#credits a:hover{
+	color: #ff73b3;
+	font-weight: 400;
+	font-style: none;
+}
+
+#heart{
+	color: #ff73b3;
+	padding-left: .1em;
+	padding-right: .1em;
+}
