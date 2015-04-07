@@ -3,6 +3,8 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<title>POPSHOP</title>
 
 	
@@ -10,15 +12,16 @@
 
 <body>
 	<div class="illustration">
-		<img id="logocloud" class="mouseoveritem" src="img/ps-cloud.png" alt="POPSHOP Logo">
-		<img id="sun" class="mouseoveritem" src="img/sun.png" alt="image of sun">
+		<img id="logocloud" src="img/ps-cloud.png" alt="POPSHOP Logo">
+
+		<img id="sun" src="img/sun.png" alt="image of sun">
 
 		<div id="mission">
-			<p>POPSHOP is a new kind of co-working space for everyone.</p>
-			<p>Come make it your own.</p>
+			<p>POPSHOP is a new kind of coworking space for everyone.
+			</br> Come make it your own.</p>
 		</div>
 
-		<img id="cloud" class="mouseoveritem" src="img/cloud.png" alt="image of cloud">
+		<img id="cloud" src="img/cloud.png" alt="image of cloud">
 		<img id="popshop" src="img/popshop.png" alt="POPSHOP is located at 325 College Ave">
 	</div>
 
@@ -29,18 +32,40 @@
 		<div class="links">
 				<form>
 					Join our listserve 
-					<input type="submit" class="button" value="ADD"</input>
-					<input type="text" name="email" placeholder="youremail@gmail.com"> </input>
+					<span id="input">
+						<input type="submit" class="button" value="ADD"></input>
+						<input type="text" name="email" placeholder="youremail@gmail.com" id="emailinput"> </input>
+					</span>
 				</form>
-			<p>Join the FB Community <a href="https://www.facebook.com/groups/706645682703304/"><span class="button">JOIN</span></a></p>
 
-			<iframe id="cal" src="https://www.google.com/calendar/embed?title=POPSHOP%20Events&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+			<div id="fbcommunity"> <p>Join the FB Community <a href="https://www.facebook.com/groups/706645682703304/"><span class="button">JOIN</span></a></p> </div>
+
+			<iframe id="cal600" src="https://www.google.com/calendar/embed?title=POPSHOP%20Events&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+
+			<iframe id="cal300" src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="325" height="400" frameborder="0" scrolling="no"></iframe>
 		</div>
 	</div>
 
 	<div id="credits"> 
 		site made with <span id="heart">  &#10084; </span> by <a href="http://www.nicolecalace.com">Nicole Calace</a>
 	</div>
+
+
+	<script>
+		$(document).ready(function(){
+			function logoCloudRight() {
+			    $("#logocloud").animate({left: '-60px'}, 4000);;
+			    logoCloudLeft();
+			}
+
+			function logoCloudLeft() {
+			    $("#logocloud").animate({left: '-40px'}, 4000);;
+			    logoCloudRight();
+			}
+
+			logoCloudLeft();
+		});
+	</script>
 
 </body>
 
