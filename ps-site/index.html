@@ -1,8 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<!--site designed and dev'd by Nicole Calace.-->
+	<!--s/o to Eric Morris for making the email forms work.-->
+
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<title>POPSHOP</title>
@@ -17,8 +20,8 @@
 		<img id="sun" src="img/sun.png" alt="image of sun">
 
 		<div id="mission">
-			<p>POPSHOP is a new kind of coworking space for everyone.
-			</br> Come make it your own.</p>
+			<p>POPSHOP is the coworking space for everyone.
+			</br>Come make it your own.</p>
 		</div>
 
 		<img id="cloud" src="img/cloud.png" alt="image of cloud">
@@ -30,26 +33,33 @@
 
 	<div id="grass2">
 		<div class="links">
-				<form>
+		<p>POPSHOP is communal creative space for Cornell University's makers and doers. Every one is welcome. 
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem tortor, pretium sit amet sem at, blandit aliquam turpis. Duis eleifend felis eros, et convallis metus sodales at. Pellentesque nec purus augue. Phasellus auctor porta lacus et pulvinar. Nam efficitur nisl sit amet sapien hendrerit venenatis.</p>
+		<p class="center">To get updates and info on upcoming events...</p>
+				<form class="events-listserv-form" action="form.php" method="post">
 					Join our listserve 
 					<span id="input">
-						<input type="submit" class="button" value="ADD"></input>
-						<input type="text" name="email" placeholder="youremail@gmail.com" id="emailinput"> </input>
+						<input type="hidden" name="type" value="join">
+						<input id="list-fm-submit" type="submit" class="button" value="JOIN"></input>
+						<input id="list-fm-email" type="text" name="email"placeholder="youremail@gmail.com" id="emailinput"> </input>
 					</span>
 				</form>
 
 			<div id="fbcommunity"> <p>Join the FB Community <a href="https://www.facebook.com/groups/706645682703304/"><span class="button">JOIN</span></a></p> </div>
 
-			<iframe id="cal600" src="https://www.google.com/calendar/embed?title=POPSHOP%20Events&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+			<iframe id="cal600" src="https://www.google.com/calendar/embed?title=POPSHOP%20Events&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="600" height="300" frameborder="0" scrolling="no"></iframe>
 
 			<iframe id="cal300" src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=cornell.edu_kv3ikqm57adq9vquvthbthjq0c%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=America%2FNew_York" style=" border-width:0 " width="325" height="400" frameborder="0" scrolling="no"></iframe>
 		</div>
+
+
 	</div>
 
 	<div id="credits"> 
 		site made with <span id="heart">  &#10084; </span> by <a href="http://www.nicolecalace.com">Nicole Calace</a>
 	</div>
 
+	<script src="js/app.js"></script>
 </body>
 
 </html>

@@ -30,11 +30,20 @@ body{
 		width: 200px;
 		left: -50px;
 		-webkit-animation-name: logocloudAnimation; 
-	    -webkit-animation-duration: 10s; 
+	    -webkit-animation-duration: 8s; 
 	    -webkit-animation-iteration-count: infinite;
 	    animation-name: logocloudAnimation;
-	    animation-duration: 10s;
+	    animation-duration: 8s;
 	    animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+    	animation-timing-function: linear;
+	}
+
+	#mission{
+		position: relative;
+		top: 30px;
+		text-align: center;
+		clear: both;
 	}
 
 	#sun{
@@ -52,25 +61,19 @@ body{
 		right: -100px;
 		top: 30px;
 		-webkit-animation-name: cloudAnimation; 
-	    -webkit-animation-duration: 13s; 
+	    -webkit-animation-duration: 10s; 
 	    -webkit-animation-iteration-count: infinite;
 	    animation-name: cloudAnimation;
-	    animation-duration: 13s;
+	    animation-duration: 10s;
 	    animation-iteration-count: infinite;
+	    -webkit-animation-timing-function: linear;
+    	animation-timing-function: linear;
 	}
 
 	#popshop{
 		position: relative;
 	    width: 100%;
 	    z-index: 1;
-	}
-
-	#mission{
-		position: relative;
-		top: 40px;
-		text-align: center;
-		width: 550px;
-		padding-left: 30px;
 	}
 
 	.links{
@@ -96,7 +99,7 @@ body{
 	}
 }
 
-@media (max-device-width: 768px) {
+@media (max-width: 768px) {
 
 	form {
 		display: block;
@@ -114,7 +117,7 @@ body{
 
 	#logocloud{
 		position: relative;
-		width: 130px;
+		width: 23%;
 		padding-top: 15px;
 	}
 
@@ -122,8 +125,8 @@ body{
 		float: right;
 		position: relative;
 		display: inline-block;
-		width: 100px;
-		top: -50px;
+		width: 15%;
+		top: -20px;
 	}
 
 	#input{
@@ -147,6 +150,12 @@ body{
 		position: relative;
 	    width: 100%;
 	    z-index: 1;
+	}
+
+	#mission{
+		text-align: center;
+		clear: both;
+		padding-bottom: 10px;
 	}
 
 	.links{
@@ -304,3 +313,7 @@ input[type="text"]{
 	    50%  {right:-100px;}
 	    100% {right:-140px;}
 	}
+
+.center{
+	text-align: center;
+}
