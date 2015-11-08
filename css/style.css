@@ -1,7 +1,8 @@
 body{
 	color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "adelle", sans-serif;
 	font-weight: 300;
+	font-size: 14px;
 }
 
 a, a:visited, a:hover{
@@ -29,14 +30,18 @@ a, a:visited, a:hover{
 	text-decoration: underline;
 }
 
-h1, h2{
-	font-family: 'Montserrat', sans-serif;
-	line-height: 15px;
+h1, h2, h3{
+	font-family: "freight-sans-pro", sans-serif;
+	line-height: 13px;
 	font-weight: 700;
 }
 
+.abouttext h2{
+	font-family: "adelle", sans-serif;
+}
+
 .about h2{
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .orangestripe{
@@ -60,21 +65,29 @@ h1, h2{
 }
 
 .contentstripe{
-	padding-top: 2em;
-
-	position: relative;
+	padding-top: 6em;
+	padding-bottom: 6em;
 }
 
 .contentstripe h2{
+	font-size: 2.1em;
 	margin-bottom: .1em;
 	margin-top: .1em;
 	color: black;
+	line-height: .8em;
 }
 
 .contentstripe h3{
 	margin-bottom: .4em;
 	margin-top: .4em;
+	font-weight: 600;
 	color: #666666;
+	font-size: 1.7em;
+	padding-bottom: .5em;
+}
+
+.contentstripe .button{
+	margin-top: 1.3em;
 }
 
 .rightbutton{
@@ -86,7 +99,7 @@ h1, h2{
 }
 
 .button{
-
+	font-family: "effra", sans-serif;
 	text-align: center;
 	background-color: #6cd3b4;
 	box-shadow: 0 2px 0px 0px #61bda2;
@@ -97,13 +110,13 @@ h1, h2{
 	transition: opacity .1s ease-in-out;
 	-moz-transition: opacity .1s ease-in-out;
 	-webkit-transition: opacity .1s ease-in-out;
+	font-weight: 400;
 }
 
 .button:hover{
 	background-color: #6cd3b4;
 	box-shadow: 0 2px 0px 0px #61bda2;
 	color: white;
-	padding: 1em;
 	display:inline-block;
 	opacity: 1;
 	transition: opacity .1s ease-in-out;
@@ -126,10 +139,8 @@ h1, h2{
 hr{
 	border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0)); 
+    opacity: .1;
+    background-color: #333;
 }
 
 .center{
@@ -154,7 +165,7 @@ hr{
 
 .maincontent{
 	z-index: 0;
-	padding-top: 2em;
+	padding-top: 5em;
 }
 
 .slashdivider{
@@ -178,7 +189,7 @@ hr{
     background-color: #89dcc3;
     color: white;
     z-index: 3;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "freight-sans-pro", sans-serif;
 	font-weight: 400;
 }
 
@@ -239,7 +250,8 @@ hr{
 .navbar li:first-child{
 	float: left;
 	padding-left: 0;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
+	font-weight: 600;
 }
 
 @media screen and (max-width: 800px){
@@ -258,12 +270,12 @@ hr{
 	float: left;
 	left: 1em;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
 }
 
 .rightlink{
 	float: right;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
 }
 
 @media screen and (max-width: 640px){
@@ -273,13 +285,18 @@ hr{
 	.rightlink{
 		display: none;
 	}
+
 }
 
 .infoheader{
 	background-color: #6cd3b4;
-	padding-top: 3em;
-	padding-bottom: .8em;
+	padding-top: 2em;
+	padding-bottom: 3.5em;
 	color: white;
+}
+
+.infoheader p{
+	padding-top: 1em;
 }
 
 .infoheader h1, h2, h3{
@@ -290,6 +307,16 @@ hr{
 .infoheader a{
 	color: white;
 	font-weight: 700;
+}
+
+.infoheader h2{
+	opacity: .95;
+	font-weight: 600;
+}
+
+.infoheader h3{
+	opacity: .95;
+	font-weight: 600;
 }
 
 p{
@@ -330,6 +357,10 @@ p{
 	padding-top: 0;
 	}
 
+	.contentstripe{
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 }
 
 .centerwrapper{
@@ -356,6 +387,9 @@ p{
 
 .linksonhome{
 	margin-top: 2em;
+	font-family: "freight-sans-pro", sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
 }
 
 .linksonhome a{
@@ -402,7 +436,8 @@ p{
 	padding: 0;
 	font-size: 2em;
 	display: inline-block;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 3em;
 	-o-transition: color 3s ease-out, background 3s ease-in;
 	-ms-transition: color 3s ease-out, background 3s ease-in;
 	-moz-transition: color 3s ease-out, background 3s ease-in;
@@ -417,7 +452,7 @@ p{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
 }
 
 .sociallinks li{
@@ -429,7 +464,10 @@ p{
 
 .sociallinks li:first-child{
 	padding-left: 0;
+	font-weight: 600;
 }
+
+
 
 @media screen and (max-width: 800px){
 	.sociallinks li{
@@ -458,12 +496,12 @@ p{
 }
 
 .aboutphoto{
-	margin-top: 3em;
+	margin-top: 6em;
 	margin-bottom: 2.5em;
 }
 
 .aboutmission{
-	padding-top: 15%;
+	padding-top: 12em;
 	padding-right: 5em;
 }
 
@@ -480,7 +518,7 @@ p{
 
 .aboutmission h2{
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
 	line-height: 1.3em;
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -533,7 +571,7 @@ p{
 
 
 .arrow{
-	margin-top: 3em;
+	margin-top: 7em;
 	position: absolute;
 	color: white;
 	padding: 3em;
@@ -602,4 +640,8 @@ p{
 
 .rightbuttontext{
 	padding-right: .8em;
+}
+
+.bottomhr{
+	margin-top: 6em;
 }
