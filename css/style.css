@@ -13,7 +13,7 @@ a, a:visited, a:hover{
 
 .about{
 	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 }
 
 .about{
@@ -99,7 +99,7 @@ h1, h2, h3{
 }
 
 .button{
-	font-family: "effra", sans-serif;
+	font-family: "freight-sans-pro", sans-serif;
 	text-align: center;
 	background-color: #6cd3b4;
 	box-shadow: 0 2px 0px 0px #61bda2;
