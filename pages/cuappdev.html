@@ -46,7 +46,7 @@
 				<h1>DailyJam</h1>
 				<h2>Creative Director</h2>
 				<h3>January 2015 - May 2015</h3>
-				<p>DailyJam is a music-sharing platform built by the CUAppDev project team. I worked on the app’s visual and interaction design, as well as lead a small team of designers towards a cohesive design vision.</p>
+				<p>DailyJam is a music-sharing platform built by the CUAppDev project team. I worked on the app’s visual and interaction design, as well as lead a small team of designers towards a unified design vision.</p>
 			</div>
 		</div>
 		</div>
@@ -67,29 +67,110 @@
 				</div>
 
 				<h3>Preliminary User Research</h3>
-				<p>My design team and I developed an interview protocol to better explore current practices and needs for music discovery and sharing. We interviewed around 15 participants, all of whom were college students. We chose college students and young professionals as our target demographic, as they tend to already use popular music services like Spotify, and are most likely to adapt new social media. Some key insights we gained from our participants included how few people even knew Spotify offered music sharing. A number of participants also mentioned how they intentionally listened to music on services like Spotify in private sessions, because they did not want to automatically share their music taste, and wished they had more control over what they shared.</p>
-
-				<h3>Personas</h3>
+				<p class="lastp">My design team and I developed an interview protocol to better explore current practices and needs for music discovery and sharing. We interviewed around 15 participants, all of whom were college students. We chose college students and young professionals as our target demographic, as they tend to already use popular music services like Spotify, and are most likely to adapt new social media. Some key insights we gained from our participants included how few people even knew Spotify offered music sharing. A number of participants also mentioned how they intentionally listened to music on services like Spotify in private sessions, because they did not want to automatically share their music taste, and wished they had more control over what they shared.</p>
 
 				<h3>Storyboarding</h3>
-
-				<ul class="large-block-grid-2 small-block-grid-1">
+				<p>To help unify our design team’s vision, while allowing everyone to have their voice heard, I asked each member to bring in a storyboard of how they imagined our future app to address the points we learned during research. During that meeting, we presented these storyboards to each other and came to a consensus about the purpose of our app. Users would be allowed to share on song each calendar day. Many of the storyboards highlighted the emotional, personal experience attached to listening to a song that is meaningful to a friend. Based on this insight, we decided the focus of our app should be social sharing, not musical exploration.</p>
+				<ul class="large-block-grid-2 small-block-grid-1 lastp">
 					<li><img src="../img/cuappdev/if-storyboard.jpg" alt=""> </li>
 					<li><img src="../img/cuappdev/if-storyboard2.jpg" alt=""> </li>
 				</ul>
 
+				<h3>Team Structure</h3>
+				<p class="lastp">Given our group’s focus on member education, it was deeply important to us that all members felt like they owned a part of the application. To try to maximize efficiency and emulate real company setups, we opted to divide up the design teams into sub-teams per feature (i.e. navigation, profile, feed, posting, search). Each designer was then assigned a developer to work with specifically for that feature. In addition to managing the team, I specifically focused on the design of feed and navigation.</p>
 
+
+				<h3>Navigation</h3>
+				<p>Process walk-through will be posted shortly...</p>
 				<ul class="large-block-grid-2 small-block-grid-1">
-					<li><img src="../img/cuappdev/if-playerexploration.jpg" alt=""> </li>
 					<li><img src="../img/cuappdev/if-navigationexploration.jpg" alt=""> </li>
+					<li><img src="../img/cuappdev/if-cardexploration.jpg" alt=""></li>
 				</ul>
+				<p class="lastp"></p>
 
-				
-
-				<h2>Visual and Motion Design</h2>
+				<div class="center">
 				<ul class="large-block-grid-2 small-block-grid-1">
+					<li><img src="../img/cuappdev/wireframes/if-wire-nav.png" alt=""> </li>
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-4.png" alt=""></li>
+				</ul>
+				</div>
+
+				<p class="lastp"></p>
+
+				<h3>Feed</h3>
+				<p>Process walk-through will be posted shortly...</p>
+
+				<div class="center">
+				<ul class="large-block-grid-2 small-block-grid-1">
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-2.png" alt=""> </li>
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-3.png" alt=""></li>
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-4.png" alt=""></li>
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-5.png" alt=""></li>
+				</ul>
+				</div>
+
+				<p class="lastp"></p>
+
+				<h3>Group Crit</h3>
+				<p>One of the main complaints from our project team’s developers was that in past semesters they did not get a say in the design of the app. To try to mitigate this, as well as get as wide variety of perspectives on our app’s future designs, we held weekly design critiques with all 24 members of the project team. All of the designers printed out their work for the week, taped it up on the wall, and presented their work. After all the designers had presented, everyone on the team was invited to leave comments, questions, and feedback on the work on taped on the walls via post-its.</p>
+				<ul class="large-block-grid-1 small-block-grid-1">
+					<li><img src="../img/cuappdev/if-groupcrit.jpg" alt=""> </li>
+				</ul>
+				<p class="lastp"></p>
+
+				<h2>Motion Design</h2>
+				<h3>Music Player</h3>
+				<p>To save space and prevent extra clutter and redundancy from an additional music player, I tried to incorporate the music player within each list item in the feed. One idea we explored early on was the idea of expanding the active cell on click to show more controls, but our engineering team shot this down, and it was unclear how one would continue to scroll through a list when the cell was expanded.</p>
+				<ul class="large-block-grid-1 small-block-grid-1">
 					<li><img src="../img/cuappdev/if-playerexploration.jpg" alt=""> </li>
 				</ul>
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/4TscveyZoWc" class="centerwrapper" frameborder="0" allowfullscreen></iframe>
+
+				<p>Since our app would only be featuring 30-second samples of songs, we did not really need all the controls a full-blown music player might feature like previous/next track or fast-forward. The most important features were showing people which songs they had already listened to/had not listened to yet, and which song they were currently listening to. I proposed the idea of using the background color of the cell as a progress indicator. The progress bar would be the ‘listened’ color, so as listening progressed, the cell would eventually become the color of the ‘listened’ color.</p>
+
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/l1OM98WW5wk" class="centerwrapper" frameborder="0" allowfullscreen></iframe>
+
+				<p>After showing the above demo, it became immediately clear that the moving bar was not visually distinct enough. I then proposed the below demo, in which the name of the person in the active cell changes color, and a pause button shows up on their profile picture.</p>
+
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/Wtrf225vclg" class="centerwrapper" frameborder="0" allowfullscreen></iframe>
+
+				<p>The president of our organization had a very negative reaction to pause button visually, and some other members expressed concerns that it might suggest a user could only play and pause by pressing on the profile picture, when in actuality this worked with the entire cell. </p>
+
+				<p>To comprise, we decided to keep the name color change but remove the pause button. In the actual app, we also added an additional animation where the profile picture of the person in the active cell rotates, mimicking a record spinning to add a fun, retro vibe to the app. </p>
+
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/5FqC74FyNL0" class="centerwrapper" frameborder="0" allowfullscreen></iframe>
+
+				<p class="lastp"></p>
+
+				<h3>Post Creation/Search</h3>
+
+				<p>Below is a quick demo of how we could begin the post creation process, bringing in a search bar to allow you to search for your song of the day.</p>
+
+				<iframe width="420" height="315" src="https://www.youtube.com/embed/KJQAD9TUD0Q" class="centerwrapper" frameborder="0" allowfullscreen></iframe>
+
+				<p class="lastp"></p>
+
+				<h2>Visual Design</h2>
+				<h3>Visual Design Explorations</h3>
+				<p>Below are some visual design theme explorations.</p>
+				<ul class="large-block-grid-3 small-block-grid-2 lastp">
+					<li><img src="../img/cuappdev/vis/if-try1.jpg" alt=""> </li>
+					<li><img src="../img/cuappdev/vis/if-try2.jpg" alt=""> </li>
+					<li><img src="../img/cuappdev/vis/if-try3.jpg" alt="" class="slightdropshadow"> </li>
+					<li><img src="../img/cuappdev/vis/if-try4.jpg" alt=""> </li>
+					<li><img src="../img/cuappdev/vis/if-try5.jpg" alt=""> </li>
+				</ul>
+
+				<h3>Final Visual Design</h3>
+				<p>Below is the final visual design. The color scheme pulls from the commonly found color scheme of red labels on black records, which is also muted enough to put the focus on friends' profile pictures and the actual music being played.</p>
+				<ul class="large-block-grid-1 small-block-grid-1">
+					<li><img src="../img/cuappdev/vis/if-final.jpg" alt=""> </li>
+				</ul>
+
+				<p class="lastp"></p>
+
+				<h2>Moving Forward</h2>
+  				<p>With version 1 of the app nearly finished, we are excitedly preparing for launch on campus. We look forward to getting more active feedback from actual users and iterating our designs further. </p>
 
 
 				</div>
