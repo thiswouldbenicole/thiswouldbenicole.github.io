@@ -645,3 +645,12 @@ p{
 .bottomhr{
 	margin-top: 6em;
 }
+
+.moreinfo h2{
+	padding-top: 2em;
+	padding-bottom: .5em;
+}
+
+.moreinfo h2:first-child{
+	padding-top: 0;
+}

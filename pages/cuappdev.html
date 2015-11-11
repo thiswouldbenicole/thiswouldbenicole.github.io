@@ -46,7 +46,7 @@
 				<h1>DailyJam</h1>
 				<h2>Creative Director</h2>
 				<h3>January 2015 - May 2015</h3>
-				<p>DailyJam is a music-sharing platform built by the CUAppDev project team. I worked on the app’s visual and interaction design, as well as lead a small team of designers towards a unified design vision.</p>
+				<p>DailyJam is a music-sharing platform built by the CUAppDev project team, where users can share their song of the day. I worked on the app’s visual and interaction design, as well as lead a small team of designers towards a unified design vision.</p>
 			</div>
 		</div>
 		</div>
@@ -81,24 +81,30 @@
 
 
 				<h3>Navigation</h3>
-				<p>Process walk-through will be posted shortly...</p>
+				<p>We initially explored the idea of music sharing within local communities. For example, people around you might be sharing sad songs on a rainy day, and listening to a whole locally cultivated playlist of music of a similar mood could create an interesting sense of community.</p>
+
+				<p>To accommodate the ability to explore content locally in addition to exploring content from friends, we began planning out a tabbed interface. One tab would allow users to explore content from their friends, and another would allow them to explore content geographically.  We also exploring putt the post creation button in this tabbed interface. The app is only interesting if users add content, so we definitely had fair reason to want to make post creation button prominent. We considered placing However, users are only able to add one song a day, so having the button extremely prominent all the time could be a fairly negative experience after posting for the day… </p>
+
+				<p> In addition to the above, we also wanted users to feel in control of their music listening experience, while providing easy navigation. This mean that our app was going to have three tab bars –the top app bar, the navigation tab bar, and the music player tab bar. This would take up a lot of screen space and having so many bars could be overwhelming. </p>
+
 				<ul class="large-block-grid-2 small-block-grid-1">
 					<li><img src="../img/cuappdev/if-navigationexploration.jpg" alt=""> </li>
 					<li><img src="../img/cuappdev/if-cardexploration.jpg" alt=""></li>
 				</ul>
-				<p class="lastp"></p>
+
+				<p class="lastp">However, we also started to explore the idea of a hamburger menu tray. We were worried that it would deemphasize the local sharing tab, but it would also help us lower our number of navigational bars. It would also be fairly consistent with Spotify’s navigation system, and since our music clips would be coming from Spotify, it was likely that users who use our app are also likely to use that platform. We were on the fence, and exploring both options extensively, but then our engineering team decided the local sharing option was going to be cut in order to complete the app by the end of the semester. With the local feature cut, we had almost no reason to stay with tabbed navigation, as we felt comfortable tucking features like profile and settings away in a hamburger menu bar. </p>
 
 				<div class="center">
 				<ul class="large-block-grid-2 small-block-grid-1">
 					<li><img src="../img/cuappdev/wireframes/if-wire-nav.png" alt=""> </li>
-					<li><img src="../img/cuappdev/wireframes/if-wire-feed-4.png" alt=""></li>
+					<li><img src="../img/cuappdev/wireframes/if-wire-feed-menu.png" alt=""></li>
 				</ul>
 				</div>
 
 				<p class="lastp"></p>
 
 				<h3>Feed</h3>
-				<p>Process walk-through will be posted shortly...</p>
+				<p>Again, one of our biggest pain points was whether our app was a music sharing platform or a social platform. Spotify made an interesting interaction design switch last year in their desktop app’s friend stream, and stopping displaying album art, instead displaying friends’ profile photos putting more of an emphasis on the social aspect of online listening. We deliberated for a while about putting a focus on album art or friends photos, and songs over friends names. However, when we lost the chance of even building out the local features, we decided our app should focus on being a social platform. Many people in our interviews talking about how personal of an experience music sharing can be, so without the added discovery/community feature, it made sense to focus our efforts entirely on the social experience.</p>
 
 				<div class="center">
 				<ul class="large-block-grid-2 small-block-grid-1">
@@ -120,7 +126,7 @@
 
 				<h2>Motion Design</h2>
 				<h3>Music Player</h3>
-				<p>To save space and prevent extra clutter and redundancy from an additional music player, I tried to incorporate the music player within each list item in the feed. One idea we explored early on was the idea of expanding the active cell on click to show more controls, but our engineering team shot this down, and it was unclear how one would continue to scroll through a list when the cell was expanded.</p>
+				<p>Our team was still uncomfortable with the idea of having a persistent music player, as it made our app feel more like a music-discover app than a social experience. To mitigate this, we explored some less traditional in-line music players. The player could be in-line, but also sticky and stick to the top, or bottom of the feed as users scrolled through the app. This could save space and prevent extra clutter and redundancy from an additional music player. One idea we explored early on was the idea of expanding the active cell on click to show more controls, but our engineering team shot this down, and it was unclear how one would continue to scroll through a list when the cell was expanded.</p>
 				<ul class="large-block-grid-1 small-block-grid-1">
 					<li><img src="../img/cuappdev/if-playerexploration.jpg" alt=""> </li>
 				</ul>
@@ -154,6 +160,7 @@
 				<h3>Visual Design Explorations</h3>
 				<p>Below are some visual design theme explorations.</p>
 				<ul class="large-block-grid-3 small-block-grid-2 lastp">
+					<li><img src="../img/cuappdev/vis/if-try0.png" alt=""> </li>
 					<li><img src="../img/cuappdev/vis/if-try1.jpg" alt=""> </li>
 					<li><img src="../img/cuappdev/vis/if-try2.jpg" alt=""> </li>
 					<li><img src="../img/cuappdev/vis/if-try3.jpg" alt="" class="slightdropshadow"> </li>
